@@ -25,6 +25,7 @@ addBtn.addEventListener("click", function (e) {
     showNotes();
 });
 
+
 // Function to show elements from localStorage
 function showNotes() {
     let notes = localStorage.getItem("notes");
@@ -51,6 +52,7 @@ function showNotes() {
         notesElm.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
     }
 }
+
 
 // Function to delete a note
 function deleteNote(index) {
